@@ -1,0 +1,123 @@
+/****************************  GENERELT ****************************/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0 5vw;
+    background-color: white;
+    /*
+    overflow-wrap: break-word;
+    hyphens: auto;
+*/
+}
+
+img {
+    width: 100%;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    color: #808080;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #0000a9;
+    padding: 0;
+    margin: 0 0 1vw 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #0000a9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    font-size: 0.6rem;
+    color: #0000a9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #0000a9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*************Header******************/
+
+header {
+    padding: 0;
+    margin: 2.5vw 0;
+}
+
+header p {
+    margin: 3vw 0 3vw 0;
+
+}
+
+#headertitle {
+    width: 60vw;
+}
+
+nav {
+    width: 20vw;
+    text-align-last: right;
+}
+
+
+/******Foooooooter********/
+
+
+/*Portfolio*/
+
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cases h6 {
+    color: #808080;
+    margin-bottom: 2vw;
+}
+
+.cases .col_left {
+    width: 20vw;
+}
+
+.cases .col_right {
+    width: 70vw;
+}
