@@ -63,6 +63,7 @@ a {
     padding: 0;
     margin: 0 0 3vw 0;
     font-family: 'Roboto', sans-serif;
+    cursor: crosshair;
 }
 
 h4 {
@@ -119,11 +120,11 @@ header h5 {
 
 header ul {
     position: absolute;
-    top: -5vw;
-    left: 20vw;
+    top: 0vw;
+    left: 0vw;
     background-color: #00009a;
-    width: 60vw;
-    height: 25vw;
+    width: 100vw;
+    height: 40vw;
     margin: 0;
     padding: 0;
 }
@@ -139,7 +140,16 @@ header .hidden {
     position: absolute;
     right: 5vw;
     cursor: crosshair;
+    z-index: 5;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+
+.activemenu {
+    color: white;
+}
+
 
 #menu {
     list-style-type: none;
@@ -155,11 +165,12 @@ header .hidden {
     padding: 0 1vw 0 0;
     color: white;
     text-decoration: none;
+    cursor: crosshair;
 
 }
 
 #menu li {
-    margin-top: 12vw;
+    margin-top: 15vw;
 }
 
 
