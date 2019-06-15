@@ -258,7 +258,7 @@ footer p {
 }
 
 #portfolio h2 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 #portfolio h6 {
@@ -278,6 +278,40 @@ footer p {
 
 .portfolio .col_right {
     width: 69vw;
+}
+
+/****************Om******************/
+}
+
+#om p {
+    margin: 5vw 0;
+    line-height: 2rem;
+}
+
+#om h2 {
+    font-size: 3rem;
+}
+
+#om h6 {
+    margin: 1vw 0;
+}
+
+.om {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vw 0 4vw 0;
+}
+
+.om .col_left {
+    flex-grow: 1;
+    flex-basis: 500px;
+    width: 60vw;
+    padding: 0 1vw 0 0;
+}
+
+.om .col_right {
+    flex-grow: 1;
+    width: 30vw;
 }
 
 /*******cases*****/
@@ -336,13 +370,13 @@ footer p {
 
     .scrollers {
         display: flex;
-        width: 100vw;
+        width: 80vw;
         height: 40vw;
     }
 
     .scrollers img {
-        width: 10vw;
-        height: 10vw;
+        width: 8vw;
+        height: 8w;
     }
 
 
@@ -553,8 +587,6 @@ footer p {
     }
 
 
-
-
     /*Portfolio*/
 
     #portfolio .col_3 {
@@ -591,6 +623,42 @@ footer p {
 
     .portfolio_top {
         width: 60vw;
+    }
+
+
+    /**********Portfolio********************/
+
+    #om .col_3 {
+        display: contents;
+    }
+
+    #om p {
+        margin: 2vw 0;
+    }
+
+    #om h2 {
+        font-size: 5rem;
+        margin: 2.5vw 0;
+        ;
+    }
+
+    .om {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4vw 0 4vw 0;
+    }
+
+    .om .col_left {
+        width: 40vw;
+    }
+
+    .om .col_3 {
+        width: 35vw;
+    }
+
+    .om .col_right {
+        flex-basis: 300px;
+        width: 50vw;
     }
 
 
@@ -815,7 +883,7 @@ footer p {
 
     h2 {
         color: #00009a;
-        font-size: 1.8rem;
+        font-size: 3rem;
         padding: 0;
         margin: 0 0 2vw 0;
         font-family: 'Roboto', sans-serif;
@@ -948,7 +1016,7 @@ footer p {
         margin: 0;
         display: flex;
         flex-wrap: wrap;
-        background-color: white;
+        background-color: #c7c7c7;
     }
 
     #footer_top {
@@ -1023,9 +1091,7 @@ footer p {
     }
 
 
-
-
-    /*Portfolio*/
+    /***************Portfolio**********************/
 
     #portfolio .col_3 {
         display: contents;
@@ -1037,8 +1103,7 @@ footer p {
 
     #portfolio h2 {
         font-size: 5rem;
-        margin: 2.5vw 0;
-        ;
+        margin: 1vw 0 1vw 0;
     }
 
     .portfolio {
@@ -1064,11 +1129,49 @@ footer p {
     }
 
 
+    /***************Om**********************/
+
+    #om .col_3 {
+        display: contents;
+    }
+
+    #om p {
+        margin: 0;
+    }
+
+    #om h2 {
+        font-size: 5rem;
+        margin: 1vw 0 1vw 0;
+    }
+
+    .om {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4vw 0 4vw 0;
+    }
+
+    .om .col_left {
+        width: 50vw;
+    }
+
+    .om .col_3 {
+        width: 35vw;
+    }
+
+    .om .col_right {
+        width: 40vw;
+    }
+
+    .om_top {
+        width: 60vw;
+    }
+
+
     /*******cases*****/
 
     .cases h2 {
-        margin: 0;
-        font-size: 4rem;
+        font-size: 5rem;
+        margin: 1vw 0 1vw 0;
     }
 
     .cases p {
@@ -1112,6 +1215,39 @@ footer p {
 
     }
 
+    /********************Video**********************/
+
+    #film {
+        background-color: #ffffff;
+        padding: 15px;
+        margin: 0px;
+    }
+
+    #film .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #film .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    #film .video {
+        height: 100%;
+        position: absolute;
+    }
+
+    video[poster] {
+        height: 100%;
+        width: 100%;
+    }
+
+
     /*******Forside*********/
 
     .h2forside {
@@ -1126,7 +1262,7 @@ footer p {
 
     .top_left {
         width: 60vw;
-        height: 20vw;
+        height: 10vw;
     }
 
     .top_right {
@@ -1160,8 +1296,7 @@ footer p {
     #forside_bottom {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 0 2vw 0;
-
+        margin-bottom: 1vw;
     }
 
     #forside_bottom .col_left {
@@ -1179,6 +1314,7 @@ footer p {
 
     #forside_midt h3 {
         margin: 3vw 0 5vw 0;
+        z-index: 100;
     }
 
     #forside_bottom h3 {
