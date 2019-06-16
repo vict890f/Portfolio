@@ -3,9 +3,9 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
-    document.querySelector("#splash2").classList.add("fade_out");
-
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+
+    document.querySelector("#splash2").classList.add("fade_out");
 
 
 
