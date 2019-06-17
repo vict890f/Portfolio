@@ -3,7 +3,8 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("splash");
 
-    setTimeout(splash, 1000);
+    setTimeout(splash, 1075);
+
 }
 
 function splash() {
