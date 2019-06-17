@@ -5,9 +5,6 @@ function sidenVises() {
 
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
-    document.querySelector("#splash2").classList.add("fade_out");
-
-
 
 }
 
