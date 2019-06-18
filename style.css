@@ -450,7 +450,7 @@ footer p {
         width: 100vw;
         height: 100vh;
         background-image: url(portfolio-dokumentation/Random/Portfolio_vb.jpg);
-        background-size: contain;
+        background-size: cover;
     }
 
 
